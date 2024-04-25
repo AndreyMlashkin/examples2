@@ -35,7 +35,7 @@ class helloRecipe(ConanFile):
             strip_root=True)
 
     def layout(self):
-        cmake_layout(self, src_folder="src")
+        cmake_layout(self, src_folder="src", build_folder="build")
 
     def generate(self):
         tc = CMakeToolchain(self)

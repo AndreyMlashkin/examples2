@@ -1,3 +1,4 @@
+[tool_requires]
 [requires]
 zlib/1.2.11
 
